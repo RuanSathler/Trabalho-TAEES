@@ -1,0 +1,85 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #222; /* Cor do cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    color:  rgb(120, 227, 120); /* Cor do título */
+    font-size: 36px;
+}
+
+/* Seções */
+.section-title {
+    color: rgb(120, 227, 120); /* Cor do título da seção */
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cadastro-section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Formulários */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #333; /* Borda dos inputs */
+    background-color: #222; /* Cor de fundo dos inputs */
+    color: #fff; /* Texto branco */
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #00d084; /* Cor do botão */
+    border: none;
+    color: #fff; /* Texto branco no botão */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #666; /* Cor do botão ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #222; /* Cor do rodapé */
+    padding: 20px;
+    text-align: center;
+}
+.signup a {
+    color: #00d084; /* Verde para links */
+    text-decoration: none;
+}
+
