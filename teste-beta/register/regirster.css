@@ -1,0 +1,123 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    display: flex;
+    flex-direction: column; /* Organizar os elementos em coluna */
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+}
+
+/* Cabeçalho */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    color: #00d084; /* Cor do título */
+    font-size: 55px; /* Tamanho do logo */
+    text-decoration: none; /* Remover sublinhado do link */
+}
+
+/* Seções */
+.section-title {
+    color: #00d084; /* Cor do título da seção */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Cadastro */
+.cadastro-section {
+    text-align: center;
+    background-color: #1c1c1c; /* Fundo da seção de cadastro */
+    padding: 40px;
+    border-radius: 10px; /* Arredondamento das bordas */
+    width: 100%; /* Largura total para o contêiner */
+    max-width: 400px; /* Largura máxima */
+    margin: 20px; /* Margem para espaçar do topo e do rodapé */
+}
+
+/* Formulários */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px; /* Espaçamento entre os campos */
+}
+
+label {
+    text-align: left; /* Alinhar texto à esquerda */
+}
+
+input {
+    padding: 10px;
+    border: none; /* Remover borda padrão */
+    background-color: #333; /* Cor de fundo dos inputs */
+    color: #fff; /* Texto branco */
+    border-radius: 5px;
+    width: 100%; /* Garantir que o input ocupe toda a largura */
+}
+
+input::placeholder {
+    color: #bbb; /* Cor do texto do placeholder */
+}
+
+.btn {
+    padding: 10px;
+    background-color: #00d084; /* Cor do botão */
+    border: none;
+    color: #fff; /* Texto branco no botão */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; /* Tamanho da fonte */
+    width: 100%; /* Botão ocupa toda a largura */
+}
+
+.btn:hover {
+    background-color: #00b76b; /* Cor do botão ao passar o mouse */
+}
+
+/* Cadastro já existente */
+.signup {
+    margin-top: 15px; /* Espaçamento acima do texto de login */
+}
+
+.signup a {
+    color: #00d084; /* Verde para links */
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+footer {
+    background-color: #222; /* Cor do rodapé */
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Largura total do rodapé */
+    position: relative; /* Define posição relativa */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+}
+
+/* Adicione espaço abaixo do formulário para evitar sobreposição */
+.cadastro-section {
+    margin-bottom: 60px; /* Ajuste conforme necessário */
+}
+
+
