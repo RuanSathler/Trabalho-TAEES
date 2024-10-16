@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_perfil.css">
+    <title>Perfil de Usuário - Recomendação de Filmes</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bem-vindo à nossa plataforma de filmes!</h1>
+            <p>Selecione seu tipo de perfil e suas preferências.</p>
+        </header>
+        
+        <form class="profile-form">
+            <label for="profile-type">Tipo de Perfil:</label>
+            <select id="profile-type" name="profile-type">
+                <option value="cinefilo">Cinéfilo</option>
+                <option value="usuario_casual">Usuário Casual</option>
+                <option value="estudante_cinema">Estudante de Cinema</option>
+                <option value="pai_mae">Pai/Mãe</option>
+                <option value="apreciador_series">Apreciador de Séries</option>
+            </select>
+
+            <fieldset>
+                <legend>Gêneros que você gosta:</legend>
+                <div class="genre-option">
+                    <label>
+                        <input type="checkbox" name="genero" value="acao">
+                        <div class="genre-image">
+                            <img src="/image/acao.jpg" alt="Ação">
+                            <span>Ação</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="genre-option">
+                    <label>
+                        <input type="checkbox" name="genero" value="romance">
+                        <div class="genre-image">
+                            <img src="image/romance.jpg" alt="Romance">
+                            <span>Romance</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="genre-option">
+                    <label>
+                        <input type="checkbox" name="genero" value="drama">
+                        <div class="genre-image">
+                            <img src="image/drama.jpg" alt="Drama">
+                            <span>Drama</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="genre-option">
+                    <label>
+                        <input type="checkbox" name="genero" value="comedia">
+                        <div class="genre-image">
+                            <img src="image/comedia.jpg" alt="Comédia">
+                            <span>Comédia</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="genre-option">
+                    <label>
+                        <input type="checkbox" name="genero" value="terror">
+                        <div class="genre-image">
+                            <img src="image/terror.jpg" alt="Terror">
+                            <span>Terror</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="genre-option">
+                    <label>
+                        <input type="checkbox" name="genero" value="sci-fi">
+                        <div class="genre-image">
+                            <img src="image/sci-fi.jpg" alt="Ficção Científica">
+                            <span>Ficção Científica</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="genre-option">
+                    <label>
+                        <input type="checkbox" name="genero" value="documentario">
+                        <div class="genre-image">
+                            <img src="image/documentario.jpg" alt="Documentário">
+                            <span>Documentário</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="genre-option">
+                    <label>
+                        <input type="checkbox" name="genero" value="suspense">
+                        <div class="genre-image">
+                            <img src="image/suspense.jpg" alt="Suspense">
+                            <span>Suspense</span>
+                        </div>
+                    </label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Salvar Preferências</button>
+        </form>
+    </div>
+</body>
+</html>
