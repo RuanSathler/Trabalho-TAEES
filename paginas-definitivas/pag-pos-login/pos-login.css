@@ -98,7 +98,7 @@ main {
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
     width: 220px;  /* Largura da caixa */
-    height: 400px; /* Altura da caixa */
+    height: 360px; /* Altura da caixa */
 }
 
 .movie-item img {
