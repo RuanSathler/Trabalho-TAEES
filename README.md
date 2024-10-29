@@ -10,4 +10,4 @@ Membros da equipe:
 - **Geovana Cena**
 - **Letícia Araújo**
 - **Ruan Sathler**
-- **Paula quadros**
+- **Paula Quadros**
