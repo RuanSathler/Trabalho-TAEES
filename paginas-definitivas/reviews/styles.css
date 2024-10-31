@@ -1,0 +1,182 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilo do botão de voltar para a página inicial */
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #00ff6a;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    color: #00e65a;
+}
+
+
+/* Container principal da página de detalhes do filme */
+.movie-details {
+    width: 60%;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+/* Cabeçalho do filme */
+.movie-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.movie-header img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.movie-info h1 {
+    font-size: 24px;
+    color: #00ff6a;
+    margin: 0 0 10px;
+}
+
+.movie-info p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Avaliação média */
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating span {
+    font-size: 20px;
+    color: #ffdd00;
+    margin-right: 5px;
+}
+
+/* Seção de Avaliações */
+.reviews-section {
+    margin-top: 20px;
+}
+
+.reviews-section h2 {
+    font-size: 20px;
+    color: #00ff6a;
+    margin-bottom: 15px;
+}
+
+.review {
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.review h3 {
+    font-size: 16px;
+    color: #00ff6a;
+    margin-bottom: 5px;
+}
+
+.review span {
+    color: #ffdd00;
+    font-size: 18px;
+}
+
+.review p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+/* Área para Adicionar Avaliação */
+.add-review {
+    margin-top: 20px;
+}
+
+.add-review h2 {
+    font-size: 20px;
+    color: #00ff6a;
+    margin-bottom: 10px;
+}
+
+.add-review textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: vertical;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+.add-review input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #e0e0e0;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.add-review button {
+    padding: 10px 20px;
+    background-color: #00ff6a;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-review button:hover {
+    background-color: #00e65a;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .movie-details {
+        width: 90%;
+    }
+
+    .movie-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .movie-header img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+}

@@ -13,7 +13,7 @@
             <p>Selecione seu tipo de perfil e suas preferências.</p>
         </header>
         
-        <form class="profile-form">
+        <form class="profile-form" id="profileForm">
             <label for="profile-type">Tipo de Perfil:</label>
             <select id="profile-type" name="profile-type">
                 <option value="cinefilo">Cinéfilo</option>
@@ -99,8 +99,15 @@
                 </div>
             </fieldset>
 
-            <button type="submit">Salvar Preferências</button>
+            <button type="submit" id="pref">Salvar Preferências</button>
         </form>
     </div>
+
+    <script>
+        document.getElementById("profileForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Impede o comportamento padrão de submissão do formulário
+            window.location.href = "../search/pesquisa.html"; // Redireciona para a página de catálogo
+        });
+    </script>
 </body>
 </html>
